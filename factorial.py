@@ -3,7 +3,7 @@
 def factorial(x,n):
 	
 	if(n>0):
-		x=factorial(x,n-1)
+		x=factorial(x, n-1)
 		x=x*n
 	else:
 		x=1
